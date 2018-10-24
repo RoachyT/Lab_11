@@ -10,16 +10,16 @@ namespace Lab_11
     class Program
     {
         static ArrayList movieList = new ArrayList()
-               {new Movie("House of 1000 Corpses","slasher" ),
-                new Movie("Donnie Darko", "scifi"),
+               {new Movie("American Beauty","drama" ),
+                new Movie("Donnie Darko", "drama"),
                 new Movie("Primer", "scifi"),
                 new Movie("Upside Down", "scifi"),
                 new Movie("Blade Runner", "scifi"),
-                new Movie("Step Brothers", "comedy"),
-                new Movie("Black Fish", "documentary"),
-                new Movie("Earthlings", "documentary"),
-                new Movie("Pulp Fiction", "crime"),
-                new Movie("Reservior Dogs", "crime")};
+                new Movie("House of 1000 Corpses", "horror"),
+                new Movie("The Hills have Eyes", "horror"),
+                new Movie("Spirited Away", "animated"),
+                new Movie("Howl's Moving Castle", "animated"),
+                new Movie("My Neighbor Totoro", "animated")};
         static void Main(string[] args)
         {
             MovieRunner();
